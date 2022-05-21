@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1bb936f7c1be94db7927bbe401e276, type: 3}
+  m_Name: EmployeeList
+  m_EditorClassIdentifier: 
+  Employees:
+  - currentPos: 0
+    EmployeeName: jenil
+    PhoneNumber: 982459999
+    Email: jenil@gmail.com
+    Password: jjjjjjjj
+    Address: jejlefjljl
+  - currentPos: 1
+    EmployeeName: kksalkdla
+    PhoneNumber: 33454565
+    Email: 5v6u7@gmail.com
+    Password: v7vu67v
+    Address: 7vrj67b46j
+  - currentPos: 2
+    EmployeeName: jenil
+    PhoneNumber: 53655
+    Email: j@m.c
+    Password: jjjj
+    Address: wedwef
