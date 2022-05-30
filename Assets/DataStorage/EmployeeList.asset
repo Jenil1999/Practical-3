@@ -13,19 +13,19 @@ MonoBehaviour:
   m_Name: EmployeeList
   m_EditorClassIdentifier: 
   Employees:
-  - currentPos: 0
+  - employeeType: 0
     EmployeeName: jenil
     PhoneNumber: 982459999
     Email: jenil@gmail.com
     Password: jjjjjjjj
     Address: jejlefjljl
-  - currentPos: 1
+  - employeeType: 0
     EmployeeName: kksalkdla
     PhoneNumber: 33454565
     Email: 5v6u7@gmail.com
     Password: v7vu67v
     Address: 7vrj67b46j
-  - currentPos: 2
+  - employeeType: 2
     EmployeeName: jenil
     PhoneNumber: 53655
     Email: j@m.c

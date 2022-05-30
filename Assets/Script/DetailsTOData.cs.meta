@@ -3,7 +3,14 @@ guid: 4b0f5287d6070a149882aafad95d1e3d
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - Designation_Select: {instanceID: 0}
+  - Emp_Name: {instanceID: 0}
+  - Ph_No: {instanceID: 0}
+  - Email_Text: {instanceID: 0}
+  - Password_Text: {instanceID: 0}
+  - Address_Text: {instanceID: 0}
+  - dataLoader: {fileID: 11400000, guid: d9288606d1a9da347ba008ceb89f72e5, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

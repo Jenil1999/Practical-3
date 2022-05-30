@@ -28,11 +28,14 @@ public class DetailsTOData : MonoBehaviour
             currentEmployee.Email = Email_Text.text;
             currentEmployee.Password = Password_Text.text;
             currentEmployee.Address = Address_Text.text;
-            currentEmployee.currentPos = (Employee.EmployeeType)Designation_Select.value;
+            currentEmployee.employeeType = (Employee.EmployeeType)Designation_Select.value;
 
             dataLoader.Employees.Add(currentEmployee);
 
             ResetUI();
+            ScreenManager.Instance.DisplayData.SetActive(false);
+            ScreenManager.Instance.AddData.SetActive(false);
+            ScreenManager.Instance.HomePage.SetActive(true);
 
         }
 
@@ -92,5 +95,7 @@ public class DetailsTOData : MonoBehaviour
         Email_Text.text = "";
         
     }
+
+   
  
 }

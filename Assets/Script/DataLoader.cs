@@ -19,7 +19,7 @@ public class Employee
     }
 
 
-    public EmployeeType currentPos;
+    public EmployeeType employeeType;
 
     public string EmployeeName;
 
